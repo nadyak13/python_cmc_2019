@@ -20,11 +20,11 @@ root.rowconfigure(0, weight=1)
 
 text = StringVar()
 
-ttk.Label(mainframe, textvariable=text).grid(column=1, row=1)
+ttk.Label(mainframe, textvariable=text).grid(column=0, row=3)
 
-ttk.Button(mainframe, text="Exit", command=exit).grid(column=2, row=0)
-ttk.Button(mainframe, text="Hello!", command=print_hello).grid(column=0, row=0)
-ttk.Button(mainframe, text="Bye!", command=print_bye).grid(column=1, row=0)
+ttk.Button(mainframe, text="Exit", command=exit).grid(column=0, row=2)
+ttk.Button(mainframe, text="Hello!", command=print_hello).grid(column=0, row=1)
+ttk.Button(mainframe, text="Bye!", command=print_bye).grid(column=0, row=0)
 
 
 
